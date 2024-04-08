@@ -98,7 +98,6 @@ body {
   font-size: 20px;
   cursor: pointer;
 }
-
 .works h5 {
   font-size: 24px;
   color: #424242;
@@ -222,7 +221,8 @@ body {
   max-width: 895.84;
   height: 516.11;
 }
-.about button {
+.about button,
+.product button {
   background-color: #01996D;
   color: #FFFFFF;
   border-radius: 4px;
@@ -241,8 +241,43 @@ body {
 .about_video_2:hover {
   opacity: 0.8;
 }
-
-
+.product_blok {
+  display: flex;
+}
+.product_left_1 {
+  margin-top: 110px;
+  margin-left: 60px;
+  padding-bottom: 243px;
+}
+.product_left_2 {
+  position: absolute;
+  margin-top: 450px;
+  margin-left: -720px;
+}
+.product_right {
+  margin-top: 78px;
+  margin-left: 88px;
+}
+.product_right h5 {
+  font-size: 24px;
+  color: #424242;
+  font-weight: 300;
+  line-height: 1.57em;
+}
+.product_right h2 {
+  width: 600px;
+  margin-top: -30px;
+  font-size: 50px;
+  font-weight: bold;
+  font-family: 'Georgia', sans-serif;
+  color: #01996D;
+  line-height: 1.58em;
+}
+.product_right p {
+  color: #424242;
+  font-size: 20px;
+  line-height: 1.5em;
+}
 .footer {
   background-color: #245852;
   padding: 95px 15px;
