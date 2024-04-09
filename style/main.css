@@ -9,6 +9,7 @@ body {
   margin: 0;
   font-family: "Lato", sans-serif;
 }
+html {scroll-behavior: smooth;}
 .container {
   max-width: 1370px;
   width: 100%;
@@ -200,6 +201,7 @@ body {
 }
 .about_left {
   max-width: 600px;
+  margin-left: 15px;
 }
 .about_left h3 {
   margin-top: 310px;
@@ -220,6 +222,7 @@ body {
   margin-top: 229px;
   max-width: 895.84;
   height: 516.11;
+  margin-right: 15px;
 }
 .about button,
 .product button {
@@ -306,4 +309,73 @@ body {
   margin-bottom: 0;
 }
 .logo {
+}
+@media screen and (max-width: 1400px) {
+  .menu_2 {
+    margin-right: 15px;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .menu_container {
+    flex-direction: column;
+  }
+  
+  .works_card {
+    flex-wrap: wrap;
+  }
+  .card_3 {
+    margin-top: -150px;
+    margin-bottom: 50px;
+  }
+  .about1 {
+    flex-wrap: wrap;
+  }
+  .about_left {
+    margin-top: -150px;
+  }
+  .about_right {
+    margin-top: 40px;
+    padding-bottom: 60px;
+  }
+  .product_blok {
+    flex-wrap: wrap;
+  }
+  .product_right {
+    margin-top: -120px;
+    padding-bottom: 40px;
+  }
+}
+@media screen and (max-width: 893px) {
+  .menu_1 ul {
+    flex-wrap: wrap;
+  }
+  .works h5 {
+    margin-top: 40px;
+  }
+  .works_title {
+    flex-wrap: wrap;
+  }
+  .card_2 {
+    margin-left: 5px;
+    margin-top: -40px;
+  }
+  .card_3 {
+    margin-left: 5px;
+    margin-top: -90px;
+  }
+  .about1 {
+    min-height: 800px;
+  }
+  .about_right {
+    position: relative;
+  }
+  .about_video_1 {
+    margin-left: -280px;
+  }
+  .about_video_2 {
+    margin-left: -520px;
+  }
+  .product_right h2 {
+    max-width: 500px;
+  }
 }
